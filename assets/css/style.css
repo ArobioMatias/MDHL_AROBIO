@@ -1,0 +1,46 @@
+/* Reglas Generales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hiddenContent {
+    display: none;
+}
+
+body {
+    background-color: #212130;
+    color: #FFFFFF;
+}
+
+/* Encabezado */
+.header-title {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.header-navbar {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    font-size: 1.2rem;
+    z-index: 10;
+}
+.navbar-link {
+    color: #FFFFFF;
+    border-radius: 2px;
+    background-color: #F0245F;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+}
+
+.navbar-link:hover {
+    color: #F0245F;
+    background-color: #FFFFFF;
+}
+
+.header-img {
+    width: 100%;
+    opacity: .5;
+}
