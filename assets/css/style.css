@@ -30,17 +30,44 @@ body {
 .navbar-link {
     color: #FFFFFF;
     border-radius: 2px;
-    background-color: #F0245F;
+    background-color: #f0215f;
     text-decoration: none;
     padding: 0.25rem 1rem;
 }
 
 .navbar-link:hover {
-    color: #F0245F;
+    color: #f0215f;
     background-color: #FFFFFF;
 }
 
 .header-img {
     width: 100%;
     opacity: .5;
+}
+
+/* Index */
+
+.events-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #f0215f;
+    color: #FFFFFF;
+}
+
+.logo-container {
+    display: inline-block;
+    padding: 50px;
+}
+
+.logo {
+    width: 200px;
+}
+.events-container {
+    display: inline-block;
+    padding: 50px;
+}
+
+.event-description {
+    margin: .5rem 0 2rem 1rem;
 }
