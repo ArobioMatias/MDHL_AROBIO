@@ -15,6 +15,10 @@ body {
 }
 
 /* Encabezado */
+h1 {
+    color: #ffd000;
+}
+
 .header-title {
     font-size: 3rem;
     font-style: italic;
@@ -28,16 +32,16 @@ body {
     z-index: 10;
 }
 .navbar-link {
-    color: #FFFFFF;
+    color: #007f5f;
     border-radius: 2px;
-    background-color: #f0215f;
+    background-color: #ffd000;
     text-decoration: none;
     padding: 0.25rem 1rem;
 }
 
 .navbar-link:hover {
-    color: #f0215f;
-    background-color: #FFFFFF;
+    color: #ffd000;
+    background-color: #007f5f;
 }
 
 .header-img {
@@ -51,8 +55,8 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
-    background-color: #f0215f;
-    color: #FFFFFF;
+    background-color: #ffd000;
+    color: #212130;
 }
 
 .logo-container {
