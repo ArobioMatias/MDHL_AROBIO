@@ -75,3 +75,23 @@ h1 {
 .event-description {
     margin: .5rem 0 2rem 1rem;
 }
+
+/* About */
+
+.about-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: #ffd000;
+    color: #212130;
+}
+
+.about-info {
+    display: inline-block;
+    padding: 50px;
+    width: 65%;
+}
+
+.about-info p {
+    margin-bottom: 2rem;
+}
