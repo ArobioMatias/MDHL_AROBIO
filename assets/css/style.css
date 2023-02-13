@@ -89,6 +89,13 @@ h1 {
     color: #212130;
 }
 
+.about-logo {
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    top: -100px;
+}
+
 .about-info {
     display: inline-block;
     padding: 50px;
