@@ -31,8 +31,9 @@ h1 {
     position: absolute;
     top: 40px;
     right: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     z-index: 10;
+    font-weight: 700;
 }
 .navbar-link {
     color: #007f5f;
@@ -49,7 +50,7 @@ h1 {
 
 .header-img {
     width: 100%;
-    opacity: .5;
+    filter:brightness(0.4);
 }
 
 /* Index */
@@ -125,3 +126,66 @@ h1 {
 .contact-info p {
     margin-bottom: 1rem;
 }
+
+/*rules*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.rulesHeader {
+    position: absolute;
+    top: 50vh;
+    color: #ffd000;
+    text-align: center;
+}
+
+.rulesHeader-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.rulesHeader-detail {
+    font-size: 1.5rem;
+}
+
+.rulesInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+}
+
+.rulesInformation-item {
+    padding: 50px;
+    background-color: #3A3A55;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item-title {
+    color: #ffd000;
+}
+
+.item-list>li {
+    margin-bottom: .8rem;
+}
+
+.secondaryList {
+    margin-top: .8rem;
+}
+
+ul, ol {
+    padding-left: 1rem;
+}
+
+ol span {
+    font-weight: 700;
+}
+
