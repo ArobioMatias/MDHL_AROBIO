@@ -100,27 +100,37 @@ body {
 
 .events-title {
     text-align: center;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 1.5rem;
     background-color: #ffd000;
     color: #212130;
+    padding: 0.2rem 0;
 }
 
-.logo-container {
-    display: inline-block;
-    padding: 50px;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem;
 }
 
 .logo {
     width: 200px;
 }
-.events-container {
-    display: inline-block;
-    padding: 50px;
+.event-group {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.event {
+    padding: .5rem;
+    background-color: #3A3A55;
+    border-radius: 5px;
 }
 
 .event-description {
-    margin: .5rem 0 2rem 1rem;
+    margin-left: 1rem;
 }
 
 /* About */
