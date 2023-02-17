@@ -18,11 +18,9 @@ body {
 }
 
 /* Encabezado */
-h1 {
-    color: #ffd000;
-}
 
 .header-title {
+    color: #ffd000;
     font-size: 3rem;
     font-style: italic;
     font-weight: bold;
@@ -48,10 +46,49 @@ h1 {
     background-color: #007f5f;
 }
 
-.header-img {
+/* Banner */
+.banner {
+    height: 60vh;
+}
+
+.banner-image {
+    height: 100%;
+}
+
+.image {
+    object-fit: cover;
+    height: 100%;
     width: 100%;
     filter:brightness(0.4);
 }
+
+.banner-text {
+    width: 100%;
+    position: relative;
+    top: -38vh;
+    color: #ffd000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000086;
+    padding: 1rem;
+    font-style: italic;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-detail {
+    font-size: 1.5rem;
+}
+
+
+
+
+
 
 /* Index */
 
@@ -196,26 +233,6 @@ ol span {
     flex-direction: row;
     padding: 50px;
     justify-content: space-between;
-}
-
-.scheduleHeader {
-    width: 100%;
-    position: absolute;
-    top: 50vh;
-    color: #ffd000;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.scheduleHeader-title {
-    font-size: 4rem;
-    font-weight: 700;
-}
-
-.scheduleHeader-detail {
-    font-size: 1.5rem;
 }
 
 .scheduleContainer {
