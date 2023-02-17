@@ -98,7 +98,7 @@ body {
 
 /* Index */
 
-.events-title {
+.secondary-title {
     text-align: center;
     font-weight: 700;
     font-size: 1.5rem;
@@ -139,14 +139,6 @@ body {
 
 /* About */
 
-.about-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-    background-color: #ffd000;
-    color: #212130;
-}
-
 .about-info {
     display: flex;
     flex-direction: column;
@@ -168,23 +160,13 @@ body {
 }
 
 /* Contact */
-.contact-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-    background-color: #ffd000;
-    color: #212130;
-}
 
 .contact-info {
-    display: inline-block;
-    position: relative;
-    top: -100px;
-    padding: 50px;
-}
-
-.contact-info p {
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 1rem;
+    padding-left: 50px;
 }
 
 /*rules*/
