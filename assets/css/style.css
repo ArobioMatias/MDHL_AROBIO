@@ -229,6 +229,12 @@ body {
     width: 80%;
 }
 
+.rulesInformation-title {
+    color: #ffd000;
+    font-size: 1.5rem;
+    align-self: flex-start;
+}
+
 .rulesInformation-item {
     padding: 50px;
     background-color: #3A3A55;
@@ -267,6 +273,11 @@ ol span {
     justify-content: space-between;
 }
 
+.scheduleContainer-title {
+    color: #ffd000;
+    font-size: 1.5rem;
+}
+
 table {
     background-color: #3A3A55;
     height: 50vh;
@@ -290,7 +301,14 @@ th {
 
 .scheduleInfo {
     width: 45%;
-    height: 50vh;
+}
+
+.scheduleInfo-title {
+    color: #ffd000;
+    font-size: 1.5rem;
+}
+
+.scheduleInfo-text {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -298,6 +316,7 @@ th {
     padding: 30px;
     background-color: #3A3A55;
     border-radius: 10px;
+    height: 50vh;
 }
 
 .scheduleInfo span {
@@ -347,3 +366,87 @@ th {
 }
 
 /* Registration */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    gap: 2rem;
+}
+
+.form-title {
+    color: #ffd000;
+    font-size: 1.5rem;
+}
+
+.form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1.2rem;
+    background-color: #3A3A55;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+input {
+    font-size: 1.2rem;
+    background-color: #212130;
+    color: #fff;
+    border: none;
+}
+
+.generalQuestions {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.label {
+    color: #ffd000;
+}
+
+.position{
+    display: flex;
+    flex-direction: column;
+}
+
+.elementarySchool {
+    display: flex;
+    flex-direction: column;
+}
+
+.uniformSize {
+    display: flex;
+    flex-direction: column;
+}
+
+.permission-title {
+    color: #ffd000;
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+input[type="submit"]{
+    padding: 1rem;
+    background-color: #ffd000;
+    color: #212130;
+    width: 100px;
+    font-weight: 700;
+}
+
+input[type="submit"]:hover {
+    background-color: #007f5f;
+    color: #ffd000;
+}
