@@ -114,6 +114,10 @@ body {
     padding: 3rem;
 }
 
+.logo-container {
+    align-self: flex-start;
+}
+
 .logo {
     width: 200px;
 }
@@ -143,21 +147,24 @@ body {
     color: #212130;
 }
 
-.about-logo {
-    display: inline-block;
-    padding: 50px;
-    position: relative;
-    top: -100px;
-}
-
 .about-info {
-    display: inline-block;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
     width: 65%;
+    gap: 1rem;
 }
 
-.about-info p {
-    margin-bottom: 2rem;
+.about-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #3A3A55;
+    padding: 1.5rem;
+    border-radius: 10px;
+    gap: 0.5rem;
+}
+
+.about-item>h2 {
+    color: #ffd000;
 }
 
 /* Contact */
